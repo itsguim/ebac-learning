@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verificar Campos</title>
+  <style>
+    * {
+      margin: 0;
+    }
+
+    body,
+    html {
+      height: 100%;
+    }
+
+    body {
+      background-color: rgb(244, 231, 216);
+    }
+
+    label {
+      font-size: 19px;
+    }
+
+    #input_a,
+    #input_b {
+      display: block;
+      margin-block: 5px;
+      padding: 6px;
+      border-radius: 6px;
+      border: 1px solid black
+    }
+
+    form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      flex-direction: column;
+      gap: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <form>
+    <div>
+      <label for="input_a">Campo A:</label>
+      <input type="number" id="input_a">
+    </div>
+    <div>
+      <label for="input_b">Campo B:</label>
+      <input type="number" id="input_b">
+    </div>
+    <button type="submit" id="enviar">Comparar!</button>
+  </form>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
