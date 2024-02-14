@@ -1,0 +1,31 @@
+#input_fields {
+	display: flex;
+	gap: 2rem;
+	align-items: center;
+	margin-block: 1.5rem;
+	padding-bottom: 2rem;
+	border-bottom: 1px solid black;
+	justify-content: center;
+}
+
+#input_fields input {
+	/* border: none; */
+	border: 2px solid black;
+	padding-block: 8px;
+}
+
+input::placeholder {
+	padding-left: 4px;
+}
+
+.add_btn {
+	background-color: #02807e;
+	border: none;
+	padding: 9px;
+	cursor: pointer;
+}
+
+.add_btn span {
+	color: #ffffff;
+	font-weight: bold;
+}

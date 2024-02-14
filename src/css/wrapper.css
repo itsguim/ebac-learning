@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+html {
+	font-size: 62, 5%;
+}
+
+body {
+	background-color: rgb(249, 238, 214);
+}
+
+.wrapper {
+	margin: auto;
+	width: max-content;
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+
+.content {
+	height: min-content;
+}
+
+.title {
+	display: flex;
+	align-items: center;
+	gap: 0.8rem;
+}
+
+.title h1 {
+	font-size: 1.9rem;
+	margin-inline: auto;
+}

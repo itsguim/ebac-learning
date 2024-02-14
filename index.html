@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício M9 - Jquery</title>
+  <link rel="stylesheet" href="src/css/wrapper.css">
+  <link rel="stylesheet" href="src/css/form.css">
+  <link rel="stylesheet" href="src/css/task_handler.css">
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="content">
+      <div class="title">
+        <h1>Lista de Tarefas</h1>
+      </div>
+      <form id="input_fields">
+        <div class="form_group">
+          <input type="text" id="inp-task" placeholder="Adicionar Tarefa">
+          <button type="button" class="add_btn">
+            <span>Adicionar +</span>
+          </button>
+        </div>
+      </form>
+      <div class="task_list">
+        <ul>
+          <!-- Elementos adicionados dinamicamente via jQuery -->
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="./src/js/handleClick.js"></script>
+</body>
+
+</html>
