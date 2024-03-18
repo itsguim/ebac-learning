@@ -1,0 +1,13 @@
+.gallery {
+	display: flex;
+	max-width: 85%;
+	margin-inline: auto;
+	padding-block: 2rem;
+}
+
+.img-car {
+	width: 400px;
+	height: 320px;
+	margin-inline: auto;
+	border: 10px solid rgb(192, 223, 223);
+}

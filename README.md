@@ -1,0 +1,3 @@
+Instalar dependências
+
+`npm install`

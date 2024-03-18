@@ -1,0 +1,45 @@
+*,
+*::after,
+*::before {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62, 5%; /* = 10px = 1rem */
+}
+
+html,
+body {
+	height: 100%;
+	position: relative;
+}
+
+body {
+	line-height: 1.5;
+	font-size: 1.6rem;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background-color: rgb(192, 223, 223);
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+:is(input, button, textarea, select) {
+	font: inherit;
+}
+
+:is(p, h1, h2, h3, h4, h5, h6) {
+	overflow-wrap: break-word;
+}
+
+ul {
+	list-style-type: none;
+}
+
+input {
+	display: block;
+}

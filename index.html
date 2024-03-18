@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jquery Masking - M10</title>
+  <!-- SLICK -->
+  <link rel="stylesheet" href="./node_modules/slick-carousel/slick/slick.css">
+  <link rel="stylesheet" href="./node_modules/slick-carousel/slick/slick-theme.css">
+  <!-- Custom -->
+  <link rel="stylesheet" href="style/reset.css">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/carroussel.css">
+
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <h2>Masking Test (CPF, CEP e Phone Formatados)</h2>
+    <div class="form_field">
+      <form action="">
+
+        <div class="fieldset" id="name-field">
+          <label for="">Nome Completo:</label>
+          <input type="text" name="" id="">
+        </div>
+
+        <div class="fieldset" id="phone-field">
+          <label for="">Telefone*:</label>
+          <input type="text" name="phone" id="phone-id">
+        </div>
+
+        <div class="fieldset" id="cpf-field">
+          <label for="">CPF*:</label>
+          <input type="text" name="" id="cpf-id">
+        </div>
+
+        <div class="fieldset street" id="address-field">
+          <div class="fieldset_pair">
+            <label for="street">Rua</label>
+            <input type="text" name="" id="street">
+          </div>
+          <div class="fieldset_pair">
+            <label for="district">Bairro</label>
+            <input type="text" name="" id="district">
+          </div>
+          <div class="fieldset_pair">
+            <label for="number">Numero</label>
+            <input type="number" name="" id="number">
+          </div>
+          <div class="fieldset_pair">
+            <label for="city-state">Cidade/Estado</label>
+            <input type="text" name="" id="city-state">
+          </div>
+        </div>
+
+        <div class="fieldset" id="zip_field">
+          <label for="">CEP*:</label>
+          <input type="text" name="" id="cep-id">
+        </div>
+
+      </form>
+    </div>
+    <h2>Slick Test:</h2>
+    <div class="gallery">
+      <div>
+        <img class="img-car" src="./assets/imgs/1.jpg">
+      </div>
+      <div>
+        <img class="img-car" src="./assets/imgs/2.jpg">
+      </div>
+      <div>
+        <img class="img-car" src="./assets/imgs/3.jpg">
+      </div>
+      <div>
+        <img class="img-car" src="./assets/imgs/4.jpg">
+      </div>
+      <div>
+        <img class="img-car" src="./assets/imgs/5.jpg">
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="./node_modules/jquery-mask-plugin/dist/jquery.mask.min.js"></script>
+  <script src="./node_modules/slick-carousel/slick/slick.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
